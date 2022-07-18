@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "29916009-51dc-4ed5-bafe-c07b4575f431",
+		"name": "PokeAPIReynaldo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pokemon ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/pokemons/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"pokemons",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokemon Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/pokemons/search/mew",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"pokemons",
+						"search",
+						"mew"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
