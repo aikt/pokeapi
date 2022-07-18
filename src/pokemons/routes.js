@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/all', (req, res) => {
   controller.getAllPokemons(res);
 });
-router.get('/search', (req, res) => {
+router.get('/search/:name', (req, res) => {
   controller.searchPokemon(req, res);
 });
 router.get('*', (req, res) => {
