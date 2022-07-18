@@ -1,0 +1,50 @@
+{
+  "name": "ozon",
+  "version": "1.0.0",
+  "description": "Pokeapi endpoints samples",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier-eslint \"$PWD/{,!(node_modules)/**/}*.{js,json}\"",
+    "format:fix": "prettier-eslint --write \"$PWD/{,!(node_modules)/**/}*.{js,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://aikt: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@github.com/aikt/pokeapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aikt/pokeapi/issues"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"HOLA REYNALDO DESDE EL PRE COMMIT\""
+    }
+  },
+  "homepage": "https://github.com/aikt/pokeapi#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "prettier-eslint-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.1"
+  }
+}
