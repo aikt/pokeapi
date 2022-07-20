@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/pokemons/all",
+					"raw": "https://d574-187-251-136-87.ngrok.io/pokemons/all",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -31,7 +31,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/pokemons/search/mew",
+					"raw": "https://d574-187-251-136-87.ngrok.io/pokemons/search/mew",
 					"protocol": "http",
 					"host": [
 						"localhost"
