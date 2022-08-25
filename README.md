@@ -15,15 +15,6 @@
 - Se pública mi localhost al mundo mediante Ngrok 
 - Se crea colección de Postman en el proyecto.
 
-## URL Pública con HTTPS:
-
-- https://d574-187-251-136-87.ngrok.io
-
-## Quiero ver como funciona y después me explicas 👌🏼:
-
-- https://d574-187-251-136-87.ngrok.io/pokemons/all
-- https://d574-187-251-136-87.ngrok.io/pokemons/search/mew 
-
 --------------------------------
 
 ## Listo para la explicación ? 💪🏼
